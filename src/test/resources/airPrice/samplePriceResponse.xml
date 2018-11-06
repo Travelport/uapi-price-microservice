@@ -1,0 +1,106 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v43_0" xmlns:common_v43_0="http://www.travelport.com/schema/common_v43_0"  TransactionId="405C67900A07761F9B4A5051FBB43BBB" ResponseTime="2333">
+			<common_v43_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">
+				<![CDATA[Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.]]>
+			</common_v43_0:ResponseMessage>
+			<common_v43_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">
+				<![CDATA[The price is informational and can only be stored manually.]]>
+			</common_v43_0:ResponseMessage>
+			<common_v43_0:ResponseMessage Code="4400" Type="Warning">
+				<![CDATA[No Merchandising optional services returned for Flight(s) [QF][1555]]]>
+			</common_v43_0:ResponseMessage>
+			<air:AirItinerary>
+				<air:AirSegment Key="FHoihIBAAA/BnwoBAAAAAA==" Group="0" Carrier="QF" FlightNumber="1555" ProviderCode="1G" Origin="SYD" Destination="ADL" DepartureTime="2018-05-06T08:20:00.000+10:00" ArrivalTime="2018-05-06T10:00:00.000+09:30" FlightTime="130" TravelTime="130" Distance="724" ClassOfService="Q" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+					<air:CodeshareInfo OperatingCarrier="QF">Qantas Airways</air:CodeshareInfo>
+					<air:FlightDetails Key="FHoihIBAAA/BowoBAAAAAA==" Origin="SYD" Destination="ADL" DepartureTime="2018-05-06T08:20:00.000+10:00" ArrivalTime="2018-05-06T10:00:00.000+09:30" FlightTime="130" TravelTime="130" Distance="724"/>
+					<air:Connection SegmentIndex="0"/>
+				</air:AirSegment>
+			</air:AirItinerary>
+			<air:AirPriceResult>
+				<air:AirPricingSolution Key="FHoihIBAAA/BpwoBAAAAAA==" TotalPrice="AUD191.14" BasePrice="AUD148.87" ApproximateTotalPrice="AUD191.14" ApproximateBasePrice="AUD148.87" Taxes="AUD42.27" Fees="AUD0.00" ApproximateTaxes="AUD42.27" QuoteDate="2018-03-20">
+					<air:AirSegmentRef Key="FHoihIBAAA/BnwoBAAAAAA=="/>
+					<air:AirPricingInfo Key="FHoihIBAAA/BrwoBAAAAAA==" TotalPrice="AUD191.14" BasePrice="AUD148.87" ApproximateTotalPrice="AUD191.14" ApproximateBasePrice="AUD148.87" ApproximateTaxes="AUD42.27" Taxes="AUD42.27" LatestTicketingTime="2018-03-20T23:59:00.000+10:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="QF" ProviderCode="1G">
+						<air:FareInfo Key="FHoihIBAAA/BvwoBAAAAAA==" FareBasis="QDEAL" PassengerTypeCode="ADT" Origin="SYD" Destination="ADL" EffectiveDate="2018-03-21T07:59:00.000+10:00" DepartureDate="2018-05-06" Amount="AUD148.87" PrivateFare="AirlinePrivateFare" NotValidBefore="2018-05-06" NotValidAfter="2018-05-06" PseudoCityCode="5X19" TaxAmount="AUD42.27">
+							<common_v43_0:Endorsement Value="NON-REF/NON-END"/>
+							<common_v43_0:Endorsement Value="SPECIAL FARE CONDITIONS"/>
+							<air:FareRuleKey FareInfoRef="FHoihIBAAA/BvwoBAAAAAA==" ProviderCode="1G">6UUVoSldxwjUTSJfEYbLBcbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe8rMosN4ns/34PjsHTCZGimqTzrOkj9IsEDIrJOPSlVx3x+Wb7uTFX2gelThobNZDkL9ggS4kR6WQv2CBLiRHpanl8W3yxajBsUEB/b5ceEPnb/DJ2rFhK3PimBbT20jenE3MsEeJTWWL2W5A7F1xadjLPY2tcrQdKyLnA1yQakz7BH9+Lx0ikoez/Bxv+7L6lsEK4tlatqWGWXoXHIgLpz4PxeYAgiACJbdZjZUFtWs4r3IEUEyXlyF/oTXxxF6MVFd29m/nJr/ln6LBZJHTtDKWrJoxskM0/oFgUtszqQ4t/dhP5kEF7qDDdUD6r+So+wXYNbx/Qa9vOK5YaBSiRUeUXHyp7IaQ8uWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwM8w+FnY2pdnx52tR+ULC3RmjYuszn207WO+9JiRxifDDB1LkOBUBPkG1cZ+nTM1HvUN5wfvphjE2apBPut9f68</air:FareRuleKey>
+							<air:Brand Key="FHoihIBAAA/BvwoBAAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="Q" CabinClass="Economy" FareInfoRef="FHoihIBAAA/BvwoBAAAAAA==" SegmentRef="FHoihIBAAA/BnwoBAAAAAA==" HostTokenRef="FHoihIBAAA/BqwoBAAAAAA=="/>
+						<air:TaxInfo Category="QR" Amount="AUD19.36" Key="FHoihIBAAA/BswoBAAAAAA=="/>
+						<air:TaxInfo Category="WG" Amount="AUD5.53" Key="FHoihIBAAA/BtwoBAAAAAA=="/>
+						<air:TaxInfo Category="UO" Amount="AUD17.38" Key="FHoihIBAAA/BuwoBAAAAAA=="/>
+						<air:FareCalc>SYD QF ADL 148.87QDEAL AUD148.87END</air:FareCalc>
+						<air:PassengerType Code="ADT"/>
+						<air:ChangePenalty>
+							<air:Amount>AUD99.00</air:Amount>
+						</air:ChangePenalty>
+						<air:CancelPenalty>
+							<air:Percentage>100.00</air:Percentage>
+						</air:CancelPenalty>
+						<air:BaggageAllowances>
+							<air:BaggageAllowanceInfo TravelerType="ADT" Origin="SYD" Destination="ADL" Carrier="QF">
+								<air:URLInfo>
+									<air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSQF.BAGG</air:URL>
+								</air:URLInfo>
+								<air:TextInfo>
+									<air:Text>1P</air:Text>
+									<air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+								</air:TextInfo>
+								<air:BagDetails ApplicableBags="1stChecked" BasePrice="AUD0.00" ApproximateBasePrice="AUD0.00" TotalPrice="AUD0.00" ApproximateTotalPrice="AUD0.00">
+									<air:BaggageRestriction>
+										<air:TextInfo>
+											<air:Text>UPTO50LB/23KG AND UPTO55LI/140LCM</air:Text>
+										</air:TextInfo>
+									</air:BaggageRestriction>
+								</air:BagDetails>
+								<air:BagDetails ApplicableBags="2ndChecked" BasePrice="AUD35.00" ApproximateBasePrice="AUD35.00" TotalPrice="AUD35.00" ApproximateTotalPrice="AUD35.00">
+									<air:BaggageRestriction>
+										<air:TextInfo>
+											<air:Text>UPTO50LB/23KG AND UPTO55LI/140LCM</air:Text>
+										</air:TextInfo>
+									</air:BaggageRestriction>
+								</air:BagDetails>
+							</air:BaggageAllowanceInfo>
+							<air:CarryOnAllowanceInfo Origin="SYD" Destination="ADL" Carrier="QF">
+								<air:TextInfo>
+									<air:Text>2P</air:Text>
+								</air:TextInfo>
+								<air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AUD0.00" ApproximateBasePrice="AUD0.00" TotalPrice="AUD0.00" ApproximateTotalPrice="AUD0.00">
+									<air:BaggageRestriction>
+										<air:TextInfo>
+											<air:Text>UPTO15LB/7KG AND UPTO41LI/105LCM</air:Text>
+										</air:TextInfo>
+									</air:BaggageRestriction>
+								</air:CarryOnDetails>
+								<air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="AUD0.00" ApproximateBasePrice="AUD0.00" TotalPrice="AUD0.00" ApproximateTotalPrice="AUD0.00">
+									<air:BaggageRestriction>
+										<air:TextInfo>
+											<air:Text>UPTO15LB/7KG AND UPTO41LI/105LCM</air:Text>
+										</air:TextInfo>
+									</air:BaggageRestriction>
+								</air:CarryOnDetails>
+							</air:CarryOnAllowanceInfo>
+							<air:EmbargoInfo Origin="SYD" Destination="ADL" Carrier="QF">
+								<air:URLInfo>
+									<air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSQF.BAGG</air:URL>
+								</air:URLInfo>
+								<air:TextInfo>
+									<air:Text>888</air:Text>
+								</air:TextInfo>
+							</air:EmbargoInfo>
+						</air:BaggageAllowances>
+					</air:AirPricingInfo>
+					<air:FareNote Key="FHoihIBAAA/BzwoBAAAAAA==">LAST DATE TO PURCHASE TICKET: 20MAR18</air:FareNote>
+					<air:FareNote Key="FHoihIBAAA/B0woBAAAAAA==">TICKETING AGENCY 5X19</air:FareNote>
+					<air:FareNote Key="FHoihIBAAA/B1woBAAAAAA==">DEFAULT PLATING CARRIER QF</air:FareNote>
+					<air:FareNote Key="FHoihIBAAA/B2woBAAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+					<air:FareNote Key="FHoihIBAAA/B3woBAAAAAA==">E-TKT REQUIRED</air:FareNote>
+					<air:FareNote Key="FHoihIBAAA/B4woBAAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+					<common_v43_0:HostToken Key="FHoihIBAAA/BqwoBAAAAAA==">GFB10101ADT00  01QDEAL                                 010001#GFB200010101NADTV3918968406400002993N#</common_v43_0:HostToken>
+				</air:AirPricingSolution>
+			</air:AirPriceResult>
+		</air:AirPriceRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

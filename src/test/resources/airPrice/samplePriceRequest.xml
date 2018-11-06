@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:AirPriceReq xmlns="http://www.travelport.com/schema/common_v43_0" xmlns:ns2="http://www.travelport.com/schema/air_v43_0" xmlns:ns3="http://www.travelport.com/schema/cruise_v43_0" xmlns:ns4="http://www.travelport.com/schema/rail_v43_0" xmlns:ns5="http://www.travelport.com/schema/vehicle_v43_0" xmlns:ns6="http://www.travelport.com/schema/passive_v43_0" xmlns:ns7="http://www.travelport.com/schema/universal_v43_0" xmlns:ns8="http://www.travelport.com/schema/hotel_v43_0" xmlns:ns9="http://www.travelport.com/soa/common/security/SessionContext_v1" AuthorizedBy="user" TargetBranch="TP_WAB_003">
+			<BillingPointOfSaleInfo OriginApplication="UAPI"/>
+			<ns2:AirItinerary>
+				<ns2:AirSegment Group="0" Carrier="QF" FlightNumber="1555" AvailabilitySource="P" Origin="SYD" Destination="ADL" DepartureTime="2018-05-06T08:20:00.000+10:00" ArrivalTime="2018-05-06T10:00:00.000+09:30" ProviderCode="1G" Key="w4ll8H4R2BKA0W8qAAAAAA==">
+					<ns2:Connection SegmentIndex="0"/>
+				</ns2:AirSegment>
+			</ns2:AirItinerary>
+			<SearchPassenger Code="ADT" BookingTravelerRef="Jdj4uFwvsAbvIUOkdcvPhN=="/>
+			<ns2:AirPricingCommand/>
+		</ns2:AirPriceReq>
+	</soap:Body>
+</soap:Envelope>

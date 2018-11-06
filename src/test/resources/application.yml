@@ -1,0 +1,9 @@
+air:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+  endpoint: http://localhost:8089/AirService
+  branch: ${BRANCH}
+  core: ${CORE}
+logging:
+  level:
+    com.travelport.refimpl: Debug
